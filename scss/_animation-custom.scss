@@ -1,0 +1,57 @@
+/* == Custom Animations == */
+
+@keyframes fadeInUpCustom {
+  0% {
+    opacity: 0;
+	transform: translateY(-30%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes shadowGrow {
+  0% {
+    opacity: 0;
+	height: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+    height: 30%;
+  }
+}
+
+@keyframes arrowAnimationLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px) translateX(-7px);
+  }
+
+  20% {
+    opacity: 0;
+  }  
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes arrowAnimationRight {
+  0% {
+    opacity: 0;
+    transform: rotate(-88deg) translateY(43px) translateX(-47px);
+  }
+
+  20% {
+    opacity: 0;
+  }    
+
+  100% {
+    opacity: 1;
+    transform: rotate(-88deg) translateY(29px) translateX(-54px);
+  }
+}

@@ -1,0 +1,55 @@
+.swatches	{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 300px;
+	height: 150px;
+	z-index: 99;
+
+	&.dos	{
+		left: 0;
+		right: auto;
+
+		.swatch	{
+
+			&.primary	{
+				background: #b14237;
+			}
+
+			&.secondary	{
+				background: #c9d4cc;
+			}
+
+			&.tertiary	{
+				background: #e4da45;
+			}		
+		}		
+	}
+
+	.title	{
+		float: left;
+		width: 100%;
+		background: $black;
+		color: $white;
+		text-align: center;
+	}
+}
+
+.swatch	{
+	width: 33.33%;
+	height: 100%;
+	display: block;
+	float: left;
+
+	&.primary	{
+		background: $theme-color;
+	}
+
+	&.secondary	{
+		background: $secondary-color;
+	}
+
+	&.tertiary	{
+		background: $tertiary-color;
+	}		
+}

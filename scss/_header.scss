@@ -5,14 +5,17 @@ header	{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: transparent;	
+	background: transparent;
+	z-index: 99;	
+	animation-delay: 0.5s;
 }
 
 .logo	{
 	width: 100%;
 	display: block;
 	font-weight: bold;
+	color: $white;
 	font-size: 4rem;
-	text-align: center;
-	padding: $space;
+	padding: $space 0;
+
 }
