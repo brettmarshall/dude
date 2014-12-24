@@ -1,11 +1,8 @@
 /* == Layout == */
 
-html	{
-	background: $light-grey;
-}
-
 html, body	{
 	overflow-x: hidden;
+	background: $light-grey;
 }
 
 .main	{
@@ -18,4 +15,5 @@ html, body	{
 .section-wrap	{
 	width: 100%;
 	clear: both;
+	background: $light-grey;
 }

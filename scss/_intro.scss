@@ -1,15 +1,16 @@
 /* == Intro Section == */
 
 .intro	{
-	background-image: url("http://www.mauiandsons.com/uploads/apparel/apparel5.jpg");
+	background-image: url("../img/hero.jpg");
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
+	display: table;
 }
 
 .intro-content	{
-	@include vertialAlign;
+	// @include vertialAlign;
 	opacity: 0;
 	color: $white;
 	z-index: 10;
@@ -19,7 +20,9 @@
 	animation-direction: alternate;
 	animation-timing-function: ease-out;
 	animation-fill-mode: forwards;
-	animation-delay: 1s;
+	animation-delay: 3s;
+	display: table-cell;
+	vertical-align: middle;
 
 }
 
@@ -28,10 +31,10 @@
 	bottom: $space;
 	left: calc(50% - 58px);
 	z-index: 2;
-	animation-delay: 1.8s;
+	animation-delay: 3.8s;
 
 	@media (max-width: 600px)	{
-		display: none;
+		display: none;	
 	}
 
 	.line	{
@@ -42,7 +45,7 @@
 		animation-direction: alternate;
 		animation-timing-function: ease-out;
 		animation-fill-mode: forwards;
-		animation-delay: 1s;		
+		animation-delay: 3s;		
 	}
 
 	#line-2	{
@@ -52,7 +55,7 @@
 		animation-direction: alternate;
 		animation-timing-function: ease-out;
 		animation-fill-mode: forwards;
-		animation-delay: 1s;		
+		animation-delay: 3s;		
 		transform: rotate(-88deg) translateY(29px) translateX(-54px);		
 	}
 }
