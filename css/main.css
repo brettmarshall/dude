@@ -746,7 +746,7 @@ body {
 
 h1 {
   font-size: 5.5rem;
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", "Helvetica", "Arial";
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1em;
@@ -754,7 +754,7 @@ h1 {
 
 h3 {
   font-size: 2.4rem;
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", "Helvetica", "Arial";
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1.5rem; }
@@ -807,7 +807,7 @@ button {
 .btn {
   background: #be2e86;
   padding: 0 3rem;
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", "Helvetica", "Arial";
   font-size: 1.6rem;
   height: 6rem;
   text-align: center;
