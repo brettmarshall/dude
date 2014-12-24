@@ -1,0 +1,11 @@
+@mixin breakpoint($point) {
+    @media ( min-width: $point ) {
+        @content;
+    }
+}
+
+@mixin vertialAlign()	{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);	
+}

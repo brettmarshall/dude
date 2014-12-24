@@ -1,0 +1,36 @@
+/* == Typography == */
+
+html	{
+	font-size: 10px;
+}
+
+body	{
+	font-size: 1.6rem;
+	line-height: 1.5em;
+	font-family: $body;
+}
+
+h1	{
+	font-size: 6rem;
+	font-family: $heading;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1em;
+	margin-bottom: $space / 2;
+}
+
+h3	{
+	font-size: 3rem;
+	font-family: $heading;
+	margin-bottom: $space / 2;
+}
+
+a	{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+
+	&:hover	{
+		transition: all 0.3s ease-in;
+	}
+}

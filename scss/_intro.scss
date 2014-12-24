@@ -1,0 +1,12 @@
+/* == Intro Section == */
+
+.intro	{
+	background-image: url("../img/intro-img.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+}
+
+.intro-content	{
+	@include vertialAlign;
+}

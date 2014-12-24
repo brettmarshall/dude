@@ -1,0 +1,27 @@
+/* == Utility Styles == */
+
+.space-default	{
+	margin-bottom: $space;
+}
+
+.space-double	{
+	margin-bottom: $space * 2;
+}
+
+.space-triple	{
+	margin-bottom: $space * 3;
+}
+
+.space-quad	{
+	margin-bottom: $space * 4;
+}
+
+.space-cinco	{
+	margin-bottom: $space * 5;
+}
+
+.align-center	{
+	width: 100%;
+	display: block;
+	text-align: center;
+}

@@ -1,0 +1,26 @@
+/* == Forms == */
+
+input, select, button	{
+	outline: none;
+
+	&:focus	{
+		outline: none;
+	}
+}
+
+input	{
+	background: #fff;
+	height: 40px;
+	line-height: 1;
+	padding: 10px;
+	border: none;
+	font-size: 1.6rem;
+
+}
+
+button	{
+	border: none;
+	padding: 10px;
+	height: 40px;
+	text-align: center;
+}
