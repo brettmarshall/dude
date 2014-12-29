@@ -1,17 +1,54 @@
 <html>
 	<head>
 		<title>DUDE</title>
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6483272/764246/css/fonts.css" />
 		<link rel="stylesheet" href="css/main.css">
 		<script type="text/javascript" src="js/vendor/_jquery-2.1.3.min.js"></script>
 	</head>
 	<body>
-		<!-- @include _header.kit -->
-		<div class="main">
+		<span class="overlay">
+			<svg version="1.1" id="svg-loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			     width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+			    <rect x="0" y="0" width="4" height="10" fill="#333">
+			      <animateTransform attributeType="xml"
+			        attributeName="transform" type="translate"
+			        values="0 0; 0 20; 0 0"
+			        begin="0" dur="0.6s" repeatCount="indefinite" />
+			    </rect>
+			    <rect x="10" y="0" width="4" height="10" fill="#333">
+			      <animateTransform attributeType="xml"
+			        attributeName="transform" type="translate"
+			        values="0 0; 0 20; 0 0"
+			        begin="0.2s" dur="0.6s" repeatCount="indefinite" />
+			    </rect>
+			    <rect x="20" y="0" width="4" height="10" fill="#333">
+			      <animateTransform attributeType="xml"
+			        attributeName="transform" type="translate"
+			        values="0 0; 0 20; 0 0"
+			        begin="0.4s" dur="0.6s" repeatCount="indefinite" />
+			    </rect>
+			  </svg>			
+		</span>
+<!-- 		<aside class="swatches dos">
+			<h4 class="title">1970s</h4>
+			<span class="swatch primary"></span>
+			<span class="swatch secondary"></span>
+			<span class="swatch tertiary"></span>
+		</aside>			
+		<aside class="swatches">
+			<h4 class="title">1980s</h4>
+			<span class="swatch primary"></span>
+			<span class="swatch secondary"></span>
+			<span class="swatch tertiary"></span>
+		</aside> -->
+
+		
+			<!-- @include _header.kit -->
 			<!-- @include _intro.kit -->
 			<!-- @include _message.kit -->
 			<!-- @include _cta.kit -->
-		</div>
-		<script type="text/javascript" src="js/main-min.js"></script> 
+		
+		<script type="text/javascript" src="js/main.js"></script> 
 	</body>
 </html>

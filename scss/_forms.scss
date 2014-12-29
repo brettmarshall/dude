@@ -2,6 +2,7 @@
 
 input, select, button	{
 	outline: none;
+	border-radius: 0px;
 
 	&:focus	{
 		outline: none;
@@ -10,17 +11,15 @@ input, select, button	{
 
 input	{
 	background: #fff;
-	height: 40px;
+	height: 6rem;
 	line-height: 1;
-	padding: 10px;
+	padding: 0 2rem;
 	border: none;
 	font-size: 1.6rem;
+	font-family: $body;
 
 }
 
 button	{
 	border: none;
-	padding: 10px;
-	height: 40px;
-	text-align: center;
 }

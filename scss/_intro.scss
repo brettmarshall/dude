@@ -1,12 +1,61 @@
 /* == Intro Section == */
 
 .intro	{
-	background-image: url("../img/intro-img.jpg");
+	background-image: url("../img/hero.jpg");
 	background-position: center center;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
+	display: table;
 }
 
 .intro-content	{
-	@include vertialAlign;
+	// @include vertialAlign;
+	opacity: 0;
+	color: $white;
+	z-index: 10;
+	animation-name: fadeInUpCustom;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.arrow	{
+	position: absolute;
+	bottom: $space;
+	left: calc(50% - 58px);
+	z-index: 2;
+	animation-delay: 3.8s;
+
+	@media (max-width: 600px)	{
+		display: none;	
+	}
+
+	.line	{
+		stroke: $white;
+		animation-name: arrowAnimationLeft;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-timing-function: ease-out;
+		animation-fill-mode: forwards;
+		animation-delay: 3s;		
+	}
+
+	#line-2	{
+		animation-name: arrowAnimationRight;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-timing-function: ease-out;
+		animation-fill-mode: forwards;
+		animation-delay: 3s;		
+		transform: rotate(-88deg) translateY(29px) translateX(-54px);		
+	}
 }

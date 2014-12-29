@@ -1,17 +1,21 @@
 /* == Typography == */
 
 html	{
-	font-size: 10px;
+	font-size: 40%;
+
+	@include breakpoint(500px)	{
+		font-size: 62.5%;
+	}
 }
 
 body	{
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: 1.5em;
 	font-family: $body;
 }
 
 h1	{
-	font-size: 6rem;
+	font-size: 5.5rem;
 	font-family: $heading;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -20,8 +24,10 @@ h1	{
 }
 
 h3	{
-	font-size: 3rem;
+	font-size: 2.4rem;
 	font-family: $heading;
+	font-weight: 700;
+	text-transform: uppercase;
 	margin-bottom: $space / 2;
 }
 
