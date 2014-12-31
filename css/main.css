@@ -805,7 +805,7 @@ button {
 
 /* == Buttons == */
 .btn {
-  background: #be2e86;
+  background: #b14237;
   padding: 0 3rem;
   font-family: "Gotham A", "Gotham B", "Helvetica", "Arial";
   font-size: 1.6rem;
@@ -819,7 +819,7 @@ button {
   -webkit-transition: all 0.3s ease-out;
           transition: all 0.3s ease-out; }
   .btn:hover {
-    background: #ffcc3d;
+    background: #c9d4cc;
     color: #000;
     -webkit-transition: all 0.3s ease-in;
             transition: all 0.3s ease-in; }
@@ -3024,14 +3024,14 @@ Copyright (c) 2014 Daniel Eden
     height: 0; }
   100% {
     opacity: 0.5;
-    height: 30%; } }
+    height: 40%; } }
 @keyframes shadowGrow {
   0% {
     opacity: 0;
     height: 0; }
   100% {
     opacity: 0.5;
-    height: 30%; } }
+    height: 40%; } }
 @-webkit-keyframes arrowAnimationLeft {
   0% {
     opacity: 0;
@@ -3078,7 +3078,7 @@ Copyright (c) 2014 Daniel Eden
             transform: rotate(-88deg) translateY(29px) translateX(-54px); } }
 /* == Intro Section == */
 .intro {
-  background-image: url("../img/hero.jpg");
+  background-image: url("http://media0.giphy.com/media/7ZwYcekun5Cso/200.gif");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -3104,13 +3104,15 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  position: relative;
+  z-index: 99; }
 
 .arrow {
   position: absolute;
   bottom: 3rem;
   left: calc(50% - 58px);
-  z-index: 2;
+  z-index: 100;
   -webkit-animation-delay: 3.8s;
           animation-delay: 3.8s; }
   @media (max-width: 600px) {
@@ -3230,6 +3232,12 @@ header {
             animation-fill-mode: forwards;
     -webkit-animation-delay: 0.3s;
             animation-delay: 0.3s; }
+    .overlay svg #rect1 {
+      fill: #b14237; }
+    .overlay svg #rect2 {
+      fill: #e4da45; }
+    .overlay svg #rect3 {
+      fill: #c9d4cc; }
 
 .director {
   cursor: pointer; }
@@ -3291,8 +3299,8 @@ header {
   display: block;
   float: left; }
   .swatch.primary {
-    background: #be2e86; }
+    background: #b14237; }
   .swatch.secondary {
-    background: #8092c4; }
+    background: #e4da45; }
   .swatch.tertiary {
-    background: #ffcc3d; }
+    background: #c9d4cc; }

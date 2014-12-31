@@ -1,7 +1,7 @@
 /* == Intro Section == */
 
 .intro	{
-	background-image: url("../img/hero.jpg");
+	background-image: url("http://media0.giphy.com/media/7ZwYcekun5Cso/200.gif");
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -23,6 +23,8 @@
 	animation-delay: 3s;
 	display: table-cell;
 	vertical-align: middle;
+	position: relative;
+	z-index: 99;
 
 }
 
@@ -30,7 +32,7 @@
 	position: absolute;
 	bottom: $space;
 	left: calc(50% - 58px);
-	z-index: 2;
+	z-index: 100;
 	animation-delay: 3.8s;
 
 	@media (max-width: 600px)	{

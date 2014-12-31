@@ -46,7 +46,13 @@
 		animation-direction: alternate;
 		animation-timing-function: ease-out;
 		animation-fill-mode: forwards;
-		animation-delay: 0.3s;		
+		animation-delay: 0.3s;	
+
+		#rect1	{ fill : $theme-color; }
+
+		#rect2	{ fill : $secondary-color; }
+
+		#rect3	{ fill : $tertiary-color; }	
 	}
 }
 

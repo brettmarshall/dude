@@ -76,6 +76,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104492,
+		"inputAbbreviatedPath": "\/img\/hero.jpg",
+		"outputAbbreviatedPath": "\/img\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/intro-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -447,7 +458,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "brett marshall",
+"lastSavedByUser": "Apple",
 "manualImportLinks": {
 	},
 "projectAttributes": {
